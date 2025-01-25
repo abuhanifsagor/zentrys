@@ -14,7 +14,7 @@
 </head>
 <body>
     <!--INFO: NAVBAR-->
-    <header class=" sm:block   relative top-3 header w-11/12 mx-auto  ">
+    <header class=" sm:block   relative  header w-11/12 mx-auto  ">
         <nav id="navbar" class="navbar z-50 font-semibold rounded-lg text-white  absolute top-0 left-0 right-0   py-4 px-5 flex justify-between items-center">
             <div class="logo  flex gap-4 justify-center items-center">
                 <img class="w-12"  src="img/logotrnsp.png" alt="">
@@ -22,27 +22,27 @@
             </div>
             <ul class="nav-links  sm:text-lg ">
                 <div class="main-menu flex gap-7">
-                    <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#"> Contact</a></li>
+                    <li><a href="#home">HOME</a></li>
+                <li><a href="#story">STORY</a></li>
+                <li><a href="#games"> GAMES </a></li>
                 </div>
                 <div class="mobile-menu sm:hidden flex gap-7">
-                    <li><a href=""><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-gamepad"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-diamond"></i></a></li>
+                    <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#story"><i class="fa-solid fa-diamond"></i></a></li>
+                    <li><a href="#games"><i class="fa-solid fa-gamepad"></i></a></li>
                 </div>
             </ul>
         </nav>
     </header>
 
     <!--INFO: HERO SECTION-->
-    <section class="hero   relative  justify-center items-center">
+    <section id="home" class="hero  relative  justify-center items-center">
         <video id="heroVideo" autoplay muted loop class="absolute top-0 left-0    object-cover" src="videos/hero-1.mp4">
             <source src="videos/hero-1.mp4" type="video/mp4">
         </video>
         <div class="overlay absolute top-0 left-0 right-0 bottom-0 bg-black opacity-35"></div>
-        <div class="content h-11/12  w-11/12 mx-auto relative">
-           <div class="top sm:mt-5">
+        <div class="content extra top-auto right-0 h-11/12  w-11/12 mx-auto relative">
+           <div class="top  sm:mt-9">
             <h1 class=" max-sm:text-3xl font-bold text-white">REDEFINE</h1>
             <p class="sm:text-md sm:mb-5 font-semibold text-white">
                 Enter the Metagame <br>
@@ -53,8 +53,8 @@
                  <span>Watch Video</span>
             </div>
            </div>
-           <div class="bottom">
-                <h1>GAMING</h1>
+           <div class="bottom ">
+                <h2>GAMING</h2>
            </div>
            <div class="buttons next_btn flex gap-2">
             <img src="img/play.svg" alt="">
@@ -63,21 +63,78 @@
         </div>
     </section>
    
-    <section class="aboutSection flex flex-col justify-center">
+    <section id="story" class="aboutSection flex flex-col justify-center">
         <div class="about_tittle text-center ">
             <p class="font-semibold sm:text-lg text-sm sm:my-8 my-12 opacity-75 ">WELCOME TO ZENTRY</p>
             <h1 class="text-4xl my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl  w-80 mx-auto font-extrabold">Discover the world's
             largest shared adventure</h1>
         </div>
-        <div class="about_img mb-20 mx-auto flex justify-center items-center overflow-hidden">
+        <div class="about_img takefull mb-20 mx-auto flex justify-center items-center overflow-hidden">
             <img class="w-full" src="img/about.webp" alt="">
         </div>
         <h4 class="text-lg mb-8 font-bold w-80 mx-auto text-center" >The Metagame begins—your life, now an epic <b class="text-red-500">MMORPG</b></h4>
         <p class="text-sm w-80 opacity-50 mx-auto text-center">Zentry is the unified play layer that bridges players, agentic AI, and blockchains, creating a new economic paradigm.</p>
     </section>
-
-    <section class="bg-black">
-
+    <h4 class=" color-box uppercase text-center font-bold">Let’s dive into the realm of games</h4>
+    <section id="games" class="bg-black ">
+       <div class="container">
+        <div class="info-card grid row-auto col-auto grid-cols-1  sm:grid-cols-2 gap-5">
+            <div class="card sm:col-span-2 ">
+                <div class="content">
+                    <h1>RADIANT</h1>
+                    <p>The game of games transforming your in-game actions across Web2 & Web3 titles into a rewarding adventure.</p>
+                </div>
+                <video src="videos/feature-1.mp4" autoplay muted loop></video>
+                <div class="buttons flex gap-2">
+                     <span>Comming Soon</span>
+                </div>
+            </div>
+            <div class="card zigma ">
+                <div class="content">
+                    <h1>ZIGMA</h1>
+                    <p>The NFT collection merging Zentry’s IP, AI, and gaming—pushing the boundaries of NFT innovation.</p>
+                </div>
+                <video src="videos/feature-2.mp4" autoplay muted loop></video>
+                <div class="buttons flex gap-2">
+            
+                     <span>Vist Now</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h1>nexus</h1>
+                    <p>
+                        The player portal that connects players, AI, and blockchains, creating a new economic paradigm.
+                    </p>
+                </div>
+                <video src="videos/feature-3.mp4" autoplay muted loop></video>
+                <div class="buttons flex gap-2">
+                     <span>coming soon</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h1>azul</h1>
+                    <p>The agent that connects players and creating a new economic paradigm.</p>
+                </div>
+                <video src="videos/feature-4.mp4" autoplay muted loop></video>
+                <div class="buttons flex gap-2">
+                     <span>coming soon</span>
+                </div>
+            </div>
+            
+            <div class="card bg-[#5724FF]">
+                <div class="content">
+                    <h1>More <br> Coming <br> Soon</h1>
+                </div>
+                <img class="w-20 absolute right-3 bottom-3 mx-auto" src="img/logotrnsp.png" alt="">
+            </div>
+            
+            <div class="card">
+                <video src="videos/feature-5.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+       </div>
     </section>
 
 
