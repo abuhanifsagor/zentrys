@@ -4,12 +4,15 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          'blue': 'rgb(16, 24, 40)',
+          'zentry': '#101828'
         },
-        w: {
-          'bd': '140px',
+        fontFamily: {
+          'Racing': ['Racing', 'sans-serif'],
         },
+
       },
     },
-    plugins: [],
+    plugins: [
+      
+    ],
 }
