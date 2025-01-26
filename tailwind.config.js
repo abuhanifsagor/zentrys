@@ -6,10 +6,6 @@ module.exports = {
         colors: {
           'zentry': '#101828'
         },
-        fontFamily: {
-          'Racing': ['Racing', 'sans-serif'],
-        },
-
       },
     },
     plugins: [
