@@ -1,390 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
     <title>Zentry - ||</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!--INFO: NAVBAR-->
     <header class="sm:block relative header w-11/12 mx-auto">
-      <nav
-        id="navbar"
-        class="navbar z-50 font-semibold rounded-lg text-white absolute top-0 left-0 right-0 py-4 px-5 flex justify-between items-center"
-      >
-        <div class="logo flex gap-4 justify-center items-center">
-          <img class="w-12" src="img/logotrnsp.png" alt="" />
-          <h1 class="sm:block"><a href="">Zentry</a></h1>
-        </div>
-        <ul class="nav-links sm:text-lg">
-          <div class="main-menu flex gap-7">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#story">STORY</a></li>
-            <li><a href="#games"> GAMES </a></li>
-          </div>
-          <div class="mobile-menu sm:hidden flex gap-7">
-            <li>
-              <a href="#home"><i class="fa-solid fa-house"></i></a>
-            </li>
-            <li>
-              <a href="#story"><i class="fa-solid fa-diamond"></i></a>
-            </li>
-            <li>
-              <a href="#games"><i class="fa-solid fa-gamepad"></i></a>
-            </li>
-          </div>
-        </ul>
-      </nav>
+        <nav id="navbar"
+            class="navbar z-50 font-semibold rounded-lg text-white absolute top-0 left-0 right-0 py-4 px-5 flex justify-between items-center">
+            <div class="logo flex gap-4 justify-center items-center">
+                <img class="w-12" src="img/logotrnsp.png" alt="" />
+                <h1 class="sm:block"><a href="">Zentry</a></h1>
+            </div>
+            <ul class="nav-links sm:text-lg">
+                <div class="main-menu flex gap-7">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#story">STORY</a></li>
+                    <li><a href="#games"> GAMES </a></li>
+                </div>
+                <div class="mobile-menu sm:hidden flex gap-7">
+                    <li>
+                        <a href="#home"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li>
+                        <a href="#story"><i class="fa-solid fa-diamond"></i></a>
+                    </li>
+                    <li>
+                        <a href="#games"><i class="fa-solid fa-gamepad"></i></a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
     </header>
 
     <!--INFO: HERO SECTION-->
     <section id="home" class="hero relative justify-center items-center">
-      <video
-        id="heroVideo"
-        autoplay
-        muted
-        loop
-        class="absolute top-0 left-0 object-cover"
-        src="videos/hero-1.mp4"
-      >
-        <source src="videos/hero-1.mp4" type="video/mp4" />
-      </video>
-      <div
-        class="overlay absolute top-0 left-0 right-0 bottom-0 bg-black opacity-35"
-      ></div>
-      <div
-        class="content extra top-auto right-0 h-11/12 w-11/12 mx-auto relative"
-      >
-        <div class="top sm:mt-9">
-          <h1 class="max-sm:text-3xl font-bold text-white">REDEFINE</h1>
-          <p class="sm:text-md sm:mb-5 font-semibold text-white">
-            Enter the Metagame <br />
-            Unlesh the play Economy
-          </p>
-          <div class="buttons flex gap-2">
-            <img src="img/play.svg" alt="" />
-            <span>Watch Video</span>
-          </div>
+        <video id="heroVideo" autoplay muted loop class="absolute top-0 left-0 object-cover" src="videos/hero-1.mp4">
+            <source src="videos/hero-1.mp4" type="video/mp4" />
+        </video>
+        <div class="overlay absolute top-0 left-0 right-0 bottom-0 bg-black opacity-35"></div>
+        <div class="content extra top-auto right-0 h-11/12 w-11/12 mx-auto relative">
+            <div class="top sm:mt-9">
+                <h1 class="max-sm:text-3xl font-bold text-white">REDEFINE</h1>
+                <p class="sm:text-md sm:mb-5 font-semibold text-white">
+                    Enter the Metagame <br />
+                    Unlesh the play Economy
+                </p>
+                <div class="buttons flex gap-2">
+                    <img src="img/play.svg" alt="" />
+                    <span>Watch Video</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>GAMING</h2>
+            </div>
+            <div class="buttons next_btn flex gap-2">
+                <img src="img/play.svg" alt="" />
+                <span>NEXT</span>
+            </div>
         </div>
-        <div class="bottom">
-          <h2>GAMING</h2>
-        </div>
-        <div class="buttons next_btn flex gap-2">
-          <img src="img/play.svg" alt="" />
-          <span>NEXT</span>
-        </div>
-      </div>
     </section>
 
     <section id="story" class="aboutSection flex flex-col justify-center">
-      <div class="about_tittle text-center">
-        <p class="font-semibold sm:text-lg text-sm sm:my-8 my-12 opacity-75">
-          WELCOME TO ZENTRY
+        <div class="about_tittle text-center">
+            <p class="font-semibold sm:text-lg text-sm sm:my-8 my-12 opacity-75">
+                WELCOME TO ZENTRY
+            </p>
+            <h1
+                class="text-4xl my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl w-80 mx-auto font-extrabold">
+                Discover the world's largest shared adventure
+            </h1>
+        </div>
+        <div class="about_img container mx-auto flex justify-center items-center overflow-hidden"></div>
+        <h4 class="text-lg mt-12 mb-6 font-bold w-80 mx-auto text-center">
+            The Metagame begins—your life, now an epic
+            <b class="text-red-500">MMORPG</b>
+        </h4>
+        <p class="text-sm w-80 opacity-50 mx-auto text-center">
+            Zentry is the unified play layer that bridges players, agentic AI, and
+            blockchains, creating a new economic paradigm.
         </p>
-        <h1
-          class="text-4xl my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl w-80 mx-auto font-extrabold"
-        >
-          Discover the world's largest shared adventure
-        </h1>
-      </div>
-      <div
-        class="about_img container mx-auto flex justify-center items-center overflow-hidden"
-      ></div>
-      <h4 class="text-lg mt-12 mb-6 font-bold w-80 mx-auto text-center">
-        The Metagame begins—your life, now an epic
-        <b class="text-red-500">MMORPG</b>
-      </h4>
-      <p class="text-sm w-80 opacity-50 mx-auto text-center">
-        Zentry is the unified play layer that bridges players, agentic AI, and
-        blockchains, creating a new economic paradigm.
-      </p>
     </section>
     <h5 class="colorbox uppercase text-center font-bold">
-      Let’s dive into the realm of games
+        Let’s dive into the realm of games
     </h5>
 
     <section id="games" class="bg-black">
-      <div class="container">
-        <div
-          class="info-card grid row-auto col-auto grid-cols-1 sm:grid-cols-2 gap-5"
-        >
-          <div class="card sm:col-span-2">
-            <div class="content">
-              <h1>RADIANT</h1>
-              <p>
-                The game of games transforming your in-game actions across Web2
-                & Web3 titles into a rewarding adventure.
-              </p>
-            </div>
-            <video src="videos/feature-1.mp4" autoplay muted loop></video>
-            <div class="buttons flex gap-2">
-              <span>Comming Soon</span>
-            </div>
-          </div>
-          <div class="card zigma">
-            <div class="content">
-              <h1>ZIGMA</h1>
-              <p>
-                The NFT collection merging Zentry’s IP, AI, and gaming—pushing
-                the boundaries of NFT innovation.
-              </p>
-            </div>
-            <video src="videos/feature-2.mp4" autoplay muted loop></video>
-            <div class="buttons flex gap-2">
-              <span>Vist Now</span>
-            </div>
-          </div>
-          <div class="card">
-            <div class="content">
-              <h1>nexus</h1>
-              <p>
-                The player portal that connects players, AI, and blockchains,
-                creating a new economic paradigm.
-              </p>
-            </div>
-            <video src="videos/feature-3.mp4" autoplay muted loop></video>
-            <div class="buttons flex gap-2">
-              <span>coming soon</span>
-            </div>
-          </div>
-          <div class="card">
-            <div class="content">
-              <h1>azul</h1>
-              <p>
-                The agent that connects players and creating a new economic
-                paradigm.
-              </p>
-            </div>
-            <video src="videos/feature-4.mp4" autoplay muted loop></video>
-            <div class="buttons flex gap-2">
-              <span>coming soon</span>
-            </div>
-          </div>
+        <div class="container">
+            <div class="info-card grid row-auto col-auto grid-cols-1 sm:grid-cols-2 gap-5">
+                <div class="card sm:col-span-2 popup">
+                    <div class="content">
+                        <h1>RADIANT</h1>
+                        <p>
+                            The game of games transforming your in-game actions across Web2
+                            & Web3 titles into a rewarding adventure.
+                        </p>
+                    </div>
+                    <video src="videos/feature-1.mp4" autoplay muted loop></video>
+                    <div class="buttons flex gap-2">
+                        <span>Comming Soon</span>
+                    </div>
+                </div>
+                <div class="card popup zigma">
+                    <div class="content">
+                        <h1>ZIGMA</h1>
+                        <p>
+                            The NFT collection merging Zentry’s IP, AI, and gaming—pushing
+                            the boundaries of NFT innovation.
+                        </p>
+                    </div>
+                    <video src="videos/feature-2.mp4" autoplay muted loop></video>
+                    <div class="buttons flex gap-2">
+                        <span>Vist Now</span>
+                    </div>
+                </div>
+                <div class="card popup ">
+                    <div class="content">
+                        <h1>nexus</h1>
+                        <p>
+                            The player portal that connects players, AI, and blockchains,
+                            creating a new economic paradigm.
+                        </p>
+                    </div>
+                    <video src="videos/feature-3.mp4" autoplay muted loop></video>
+                    <div class="buttons flex gap-2">
+                        <span>coming soon</span>
+                    </div>
+                </div>
+                <div class="card popup">
+                    <div class="content">
+                        <h1>azul</h1>
+                        <p>
+                            The agent that connects players and creating a new economic
+                            paradigm.
+                        </p>
+                    </div>
+                    <video src="videos/feature-4.mp4" autoplay muted loop></video>
+                    <div class="buttons flex gap-2">
+                        <span>coming soon</span>
+                    </div>
+                </div>
 
-          <div class="card bg-[#5724FF]">
-            <div class="content">
-              <h1>
-                More <br />
-                Coming <br />
-                Soon
-              </h1>
-            </div>
-            <img
-              class="w-20 absolute right-3 bottom-3 mx-auto"
-              src="img/logotrnsp.png"
-              alt=""
-            />
-          </div>
+                <div class="card popup bg-[#5724FF]">
+                    <div class="content">
+                        <h1>
+                            More <br />
+                            Coming <br />
+                            Soon
+                        </h1>
+                    </div>
+                    <img class="w-20 absolute right-3 bottom-3 mx-auto" src="img/logotrnsp.png" alt="" />
+                </div>
 
-          <div class="card">
-            <video src="videos/feature-5.mp4" autoplay muted loop></video>
-          </div>
+                <div class="card popup">
+                    <video src="videos/feature-5.mp4" autoplay muted loop></video>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section class="storySection relative flex flex-col justify-center">
-      <div class="story_tittle text-center">
-        <p class="font-semibold sm:text-lg text-sm sm:my-8 my-12 opacity-75">
-          THE OPEN IP UNIVERSE
-        </p>
-        <h1
-          class="text-4xl my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl w-80 mx-auto font-extrabold"
-        >
-          THE STORY OF <br />
-          A HIDDEN REALM
-        </h1>
-      </div>
-      <div class="sotry_image mx-auto mb-8">
-        <img src="img/entrance.webp" alt="" />
-      </div>
-
-      <div
-        class="w-80 py-5 sm:pb-16 sm:absolute sm:bottom-0 sm:right-1/4 sm:text-right sm:block mx-auto text-center flex flex-col justify-center items-center"
-      >
-        <h2>
-          Where realms converge, lies Zentry and the boundless pillar. Discover
-          its secrets and shape your fate amidst infinite opportunities.
-        </h2>
-        <div class="buttons flex gap-2 dis">
-          <img src="img/play.svg" alt="" />
-          <span>DISCOVER</span>
+        <div class="story_tittle text-center">
+            <p class="font-semibold sm:text-lg text-sm sm:my-8 my-12 opacity-75">
+                THE OPEN IP UNIVERSE
+            </p>
+            <h1
+                class="text-4xl my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl w-80 mx-auto font-extrabold">
+                THE STORY OF <br />
+                A HIDDEN REALM
+            </h1>
         </div>
-      </div>
-      <div class="sm:py-20"></div>
+        <div class="sotry_image mx-auto mb-8">
+            <img src="img/entrance.webp" alt="" />
+        </div>
+
+        <div
+            class="w-80 py-5 sm:pb-16 sm:absolute sm:bottom-0 sm:right-1/4 sm:text-right sm:block mx-auto text-center flex flex-col justify-center items-center">
+            <h2>
+                Where realms converge, lies Zentry and the boundless pillar. Discover
+                its secrets and shape your fate amidst infinite opportunities.
+            </h2>
+            <div class="buttons flex gap-2 dis">
+                <img src="img/play.svg" alt="" />
+                <span>DISCOVER</span>
+            </div>
+        </div>
+        <div class="sm:py-20"></div>
     </section>
 
     <section class="bg-slate-300">
-      <div class="container">
-        <div class="text-center">
-          <p
-            class="font-semibold italic text-xl sm:text-2xl sm:my-8 my-12 opacity-75 uppercase"
-          >
-            Who We Are
-          </p>
-        </div>
-        <div class="read">
-          <h1
-            class="text-5xl mx-auto relative text-center my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl font-extrabold"
-          >
-            <div>
-              <span class="down">We're</span>
-              <span class="down">building</span>
+        <div class="container">
+            <div class="text-center">
+                <p class="font-semibold italic text-xl sm:text-2xl sm:my-8 my-12 opacity-75 uppercase">
+                    Who We Are
+                </p>
             </div>
+            <div class="read">
+                <h1
+                    class="text-4xl mx-auto relative text-center my-30 uppercase sm:text-5xl sm:my-20 sm:w-4/6 md:w-3/4 lg:w-10/12 lg:text-7xl font-extrabold">
+                    <div>
+                        <span class="down">We're</span>
+                        <span class="down">building</span>
+                    </div>
 
-            <div>
-              <span class="down">A new</span>
-              <span class="hoverImagebox">
-                <span class="hoverImage">
-                  <img src="img/gallery-4.webp" alt="" />
-                </span>
-              </span>
-              <span class="down">reality</span>
-            </div>
-            <div>
-              <span class="down">That </span>
+                    <div>
+                        <span class="down">A new</span>
+                        <span class="hoverImagebox">
+                            <span class="hoverImage">
+                                <img src="img/gallery-4.webp" alt="" />
+                            </span>
+                        </span>
+                        <span class="down">reality</span>
+                    </div>
+                    <div>
+                        <span class="down">That </span>
 
-              <span class="down">rewards</span>
+                        <span class="down">rewards</span>
+                    </div>
+                    <div>
+                        <span class="down">players</span>
+                        <span class="hoverImagebox">
+                            <span class="hoverImage">
+                                <video class="opacity-0 object-contain transition duration-700 hover:opacity-100"
+                                    src="videos/hero-1.mp4" autoplay muted loop></video>
+                            </span>
+                        </span>
+                        <span class="down">and</span>
+                    </div>
+                    <div>
+                        <span class="down">Empowrs</span>
+                    </div>
+                    <div>
+                        <span class="down">human & ai</span>
+                    </div>
+                    <div>
+                        <span class="down">to</span>
+                        <span class="hoverImagebox">
+                            <span class="hoverImage">
+                                <img src="img/gallery-5.webp" alt="" />
+                            </span>
+                        </span>
+                        <span class="down">thrive</span>
+                    </div>
+                </h1>
             </div>
-            <div>
-              <span class="down">players</span>
-              <span class="hoverImagebox">
-                <span class="hoverImage">
-                  <video
-                    class="opacity-0 object-contain transition duration-700 hover:opacity-100"
-                    src="videos/hero-1.mp4"
-                    autoplay
-                    muted
-                    loop
-                  ></video>
-                </span>
-              </span>
-              <span class="down">and</span>
-            </div>
-            <div>
-              <span class="down">Empowrs</span>
-            </div>
-            <div>
-              <span class="down">human & ai</span>
-            </div>
-            <div>
-              <span class="down">to</span>
-              <span class="hoverImagebox">
-                <span class="hoverImage">
-                  <img src="img/gallery-5.webp" alt="" />
-                </span>
-              </span>
-              <span class="down">thrive</span>
-            </div>
-          </h1>
         </div>
-      </div>
     </section>
 
     <section class="update bg-slate-100">
-      <div class="container sm:flex sm:justify-around">
-        <div class="updateLeft sm:w-1/2">
-          <div class="sm:sticky sm:top-32">
-            <h1
-              class="text-5xl sm:text-6xl md:text-7xl uppercase font-extrabold text-black"
-            >
-              Latest <br />
-              Updates
-            </h1>
-            <p class="my-5 sm:text-base text-sm w-2/3 text-gray-600">
-              Stay updated with the latest news, events, and updates in our
-              ecosystem. Be part of our universe's growth and evolution.
-            </p>
-            <div class="buttons flex gap-2">
-              <img src="img/play.svg" alt="" />
-              <span>READ ALL NEWS</span>
+        <div class="container sm:flex sm:justify-around">
+            <div class="updateLeft sm:w-1/2">
+                <div class="sm:sticky sm:top-32">
+                    <h1 class="text-5xl sm:text-6xl md:text-7xl uppercase font-extrabold text-black">
+                        Latest <br />
+                        Updates
+                    </h1>
+                    <p class="my-5 sm:text-base text-sm w-2/3 text-gray-600">
+                        Stay updated with the latest news, events, and updates in our
+                        ecosystem. Be part of our universe's growth and evolution.
+                    </p>
+                    <div class="buttons flex gap-2">
+                        <img src="img/play.svg" alt="" />
+                        <span>READ ALL NEWS</span>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="updateRight right-move sm:flex sm:flex-col sm:gap-44 sm:w-1/2 py-32 sm:py-0">
+                <div class="newsBox sm:mx-auto sm:w-3/4 md:w-full w-72">
+                    <div class="newsimg md:w-11/12 sm:w-5/6 rounded-md overflow-hidden mx-auto w-64">
+                        <img class="transition duration-300 hover:scale-110" src="img/gallery-2.webp" alt="" />
+                    </div>
+                    <div
+                        class="text-sm sm:text-base md:text-lg flex justify-between py-4 font-semibold text-black newsContent">
+                        <h4 class="w-2/3">
+                            Nexus: Zentry’s Social Portal Bridging Human & AI in the Global
+                            Play Economy
+                        </h4>
+                        <p>09.05.2024</p>
+                    </div>
+                </div>
+                <div class="newsBox left-move w-72 sm:mx-auto sm:w-3/4 md:w-full">
+                    <div class="newsimg sm:w-5/6 md:w-11/12 rounded-md overflow-hidden mx-auto w-64">
+                        <img class="transition duration-400 hover:scale-110" src="img/gallery-3.webp" alt="" />
+                    </div>
+                    <div
+                        class="newsContent text-sm sm:text-base md:text-lg flex justify-between py-4 font-semibold text-black newsContent">
+                        <h4 class="w-2/3">
+                            Zentry Whitepaper: The Blueprint The Blueprint to the Metagame
+                        </h4>
+                        <p>22.12.2024</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div
-          class="updateRight sm:flex sm:flex-col sm:gap-44 sm:w-1/2 py-32 sm:py-0"
-        >
-          <div class="newsBox sm:mx-auto sm:w-3/4 md:w-full w-72">
-            <div
-              class="newsimg md:w-11/12 sm:w-5/6 rounded-md overflow-hidden mx-auto w-64"
-            >
-              <img
-                class="transition duration-300 hover:scale-110"
-                src="img/gallery-2.webp"
-                alt=""
-              />
-            </div>
-            <div
-              class="text-sm sm:text-base md:text-lg flex justify-between py-4 font-semibold text-black newsContent"
-            >
-              <h4 class="w-2/3">
-                Nexus: Zentry’s Social Portal Bridging Human & AI in the Global
-                Play Economy
-              </h4>
-              <p>09.05.2024</p>
-            </div>
-          </div>
-          <div class="newsBox w-72 sm:mx-auto sm:w-3/4 md:w-full">
-            <div
-              class="newsimg sm:w-5/6 md:w-11/12 rounded-md overflow-hidden mx-auto w-64"
-            >
-              <img
-                class="transition duration-400 hover:scale-110"
-                src="img/gallery-3.webp"
-                alt=""
-              />
-            </div>
-            <div
-              class="newsContent text-sm sm:text-base md:text-lg flex justify-between py-4 font-semibold text-black newsContent"
-            >
-              <h4 class="w-2/3">
-                Zentry Whitepaper: The Blueprint The Blueprint to the Metagame
-              </h4>
-              <p>22.12.2024</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
+
+
+    <!--INFO: CONTACT SECTION-->
+
+    <section id="contact" class="contact relative bg-slate-100">
+
+        <div class="container  flex flex-col justify-center items-center gap-2  p-5 rounded-md bg-black text-white">
+            <div class="contactimagebox popup md:-mt-44 -mt-36">
+                <img class="w-64 md:w-80 h-auto  z-10 " src="img/swordmanhlf.webp" alt="">
+                <div class="contactimg md:w-80 w-64 h-auto">
+                    <img src="img/swordman.webp" alt="">
+                </div>
+            </div>
+            <div class="contact_content  z-30 -mt-24 text-center  ">
+                <p class="text-white text-sm font-bold">JOIN ZENTRY</p>
+                <h1 class="text-4xl md:text-7xl right-move  my-4 uppercase font-bold">
+                    Let’s build the <br>
+                    new era of GAMING <br>
+                    together
+                </h1>
+                <div class="buttons mx-auto flex gap-2">
+                    <img src="img/play.svg" alt="" />
+                    <span class="text-black text-sm">CONTACT US</span>
+                </div>
+
+            </div>
+            <div class="contactbg w-full  flex flex-row gap-8 justify-between">
+                <div class="bg1 w-40 lg:w-80 md:w-64 sm:opacity-100 opacity-0 -mt-28">
+                    <img class="w-full" src="img/contact-1.webp" alt="">
+                </div>
+                <div class="bg2 w-40 md:w-64 lg:w-80  -mb-5">
+                    <img src="img/contact-2.webp" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <div class="footer py-20 sm:py-6">
+        <div class="container">
+            <div class="flex text-white flex-row justify-between items-center gap-2 py-5">
+                <div class="logobox flex flex-row gap-2 items-center ">
+                    <img class="w-12" src="img/logotrnsp.png" alt="">
+                    <h4 class="font-extrabold text-xl">ZENTRY</h4>
+                </div>
+                <div class="flex flex-row gap-5 text-xl items-center cursor-pointer">
+                    <i class="fa-brands  fa-discord"></i>
+                    <i class="fa-brands fa-steam"></i>
+                    <i class="fa-brands fa-battle-net"></i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script>
-      const nextButton = document.querySelector(".next_btn");
-      const heroVideo = document.querySelector("#heroVideo");
+        const nextButton = document.querySelector(".next_btn");
+        const heroVideo = document.querySelector("#heroVideo");
 
-      const videoList = [
-        "videos/hero-1.mp4",
-        "videos/hero-2.mp4",
-        "videos/hero-3.mp4",
-        "videos/hero-4.mp4",
-      ];
+        const videoList = [
+            "videos/hero-1.mp4",
+            "videos/hero-2.mp4",
+            "videos/hero-3.mp4",
+            "videos/hero-4.mp4",
+        ];
 
-      let videoIndex = 0;
+        let videoIndex = 0;
 
-      nextButton.addEventListener("click", () => {
-        videoIndex = (videoIndex + 1) % videoList.length;
-        heroVideo.src = videoList[videoIndex];
-        heroVideo.load();
-        heroVideo.play();
-      });
+        nextButton.addEventListener("click", () => {
+            videoIndex = (videoIndex + 1) % videoList.length;
+            heroVideo.src = videoList[videoIndex];
+            heroVideo.load();
+            heroVideo.play();
+        });
 
-      const navbar = document.getElementById("navbar");
+        const navbar = document.getElementById("navbar");
 
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 50) {
-          navbar.classList.add("scrolled");
-        } else {
-          navbar.classList.remove("scrolled");
-        }
-      });
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
     </script>
-  </body>
+</body>
+
 </html>
