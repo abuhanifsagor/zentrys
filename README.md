@@ -20,5 +20,3 @@ Zentrys is a modern and responsive demo website built to showcase UI components,
 - Smooth scrolling and animations
 - Mobile-friendly layout
 - Fast performance
-Thank you
-
