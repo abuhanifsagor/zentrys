@@ -10,7 +10,7 @@ Zentrys is a modern and responsive demo website built to showcase UI components,
 ## 🛠️ Tech Stack
 
 - HTML5 & CSS3
-- Bootstrap 
+- tailwind 
 - JavaScript
 
 ## ✨ Features
